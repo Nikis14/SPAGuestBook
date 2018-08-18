@@ -1,0 +1,93 @@
+menu {
+    margin-top: 2em;
+    padding: 0;
+    text-align: center;
+}
+
+menu a {
+    display: inline-block;
+    margin-right: 10px;
+    padding: 5px 15px;
+    text-decoration: none;
+}
+
+menu a:hover, menu a.active {
+    background-color: steelblue;
+    color: white;
+}
+
+a, a:visited {
+    color: steelblue;
+}
+
+a:hover {
+    color: navy;
+}
+
+.wrapper {
+    width: 80%;
+    margin: 0 10%;
+}
+
+        .page{
+            display: none;
+        }
+        
+        div:target{
+            display:block;
+            z-index: 2;
+        }
+        
+        label {float:left; padding-right:10px;}
+
+.add-form {
+       width: 420px;
+       background: #f8fAf9;
+       margin-left: 34%;
+       margin-top: 7vh;
+   }  
+        
+.field {clear:both; 
+          text-align:right; 
+          line-height:25px; 
+          height:40px;
+          font-weight: bold;
+          font-family: Verdana;
+          font-size: 11pt;
+   }
+
+   .field1 {clear:both; 
+           text-align:right; 
+           line-height:25px; 
+           height:85px;
+          font-weight: bold;
+          font-family: Verdana;
+          font-size: 11pt;
+   }
+    
+.main {float:left;}
+   
+.buttons {float:left;}
+   
+.box {float:left; 
+        text-align:left;
+        height:70px;
+        font-size: 13pt;
+        
+   }
+   
+.b1 {background: #f56258;
+        font: bold 12px Verdana, Arial, sans-serif;
+        text-decoration: none;
+        color: #FFFFFF; 
+        border-radius: 10px;
+        border-color: #d9d9d9;
+        cursor: pointer;
+   }
+   
+.header {color:#f56258;
+            font-size: 20pt;
+            font-weight: bold;
+            height:6vh;
+}
+
