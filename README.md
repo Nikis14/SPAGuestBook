@@ -1,2 +1,2 @@
-# SPA_Guest_Book
+# SPAGuestBook
 Простое одностраничное веб-приложение
